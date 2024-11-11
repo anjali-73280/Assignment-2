@@ -11,6 +11,10 @@
         <div class="counter" id="counterValue">0</div>
         <span id="message" class="message"></span>
          <div class="counter-buttons">
+        <!-- 
+            As I mentioned earlier, It's better to use event listeners in your script.js file 
+            instead of attaching functions directly to HTML event handlers.
+        -->
              <button class="btn" id="increase" onclick="increase()">+</button>
              <button class="btn" id="decrease" onclick="decrease()">-</button>
              <button class="btn" id="reset" onclick="resetCounter()">Reset</button>

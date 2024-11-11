@@ -1,3 +1,5 @@
+// Great job on caching the elements at the top of the script
+// and correctly using let and const!
 let counterValue = 0;
 
 const counterDisplay = document.getElementById("counterValue");
@@ -6,10 +8,10 @@ const decreaseButton = document.getElementById("decrease");
 const resetButton = document.getElementById("reset");
 const messageSpan = document.getElementById("message");
 
-
+// Nice work on dynamically assigning span messages
+// and enabling/disabling the buttons.
 function updateDisplay() {
   counterDisplay.textContent = counterValue;
-
 
   if (counterValue <= 0) {
     decreaseButton.disabled = true;
@@ -55,5 +57,5 @@ resetButton.addEventListener("click", () => {
   updateDisplay();
 });
 
-
+// I don't think the function call below is needed.
 updateDisplay();
