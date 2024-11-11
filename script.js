@@ -57,5 +57,5 @@ resetButton.addEventListener("click", () => {
   updateDisplay();
 });
 
-// I don't think the function call below is needed.
+// I don't think the function call below is needed. :)
 updateDisplay();
